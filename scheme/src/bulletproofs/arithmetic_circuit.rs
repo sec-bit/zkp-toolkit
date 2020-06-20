@@ -1003,7 +1003,7 @@ pub fn verify_proof<E: PairingEngine>(
     // check tx ?= <lx, rx>
     // USE IPP here
     // assert_eq!(proof.t_x, inner_product::<E>(&proof.l_x, &proof.r_x));
-    if inner_product_proof::verify(
+    if !inner_product_proof::verify(
         gens.g_vec_N.clone(),
         gens.h_vec_N.clone(),
         ux,
