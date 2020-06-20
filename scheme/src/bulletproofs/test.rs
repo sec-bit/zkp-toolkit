@@ -48,7 +48,7 @@ mod bn_256 {
     fn prove_and_verify() {
         let rng = &mut test_rng();
 
-        for _ in 0..1 {
+        for _ in 0..5 {
             let a = Fr::rand(rng);
             let b = Fr::rand(rng);
             let mut c = a;
@@ -83,7 +83,7 @@ mod bls12_381 {
     fn prove_and_verify() {
         let rng = &mut test_rng();
 
-        for _ in 0..1 {
+        for _ in 0..5 {
             let a = Fr::rand(rng);
             let b = Fr::rand(rng);
             let mut c = a;
