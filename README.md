@@ -1,5 +1,9 @@
 # zkp-toolkit
 
+***For better maintenance, this project has been deprecated and merged into the [ckb-zkp](https://github.com/sec-bit/ckb-zkp) repository.***
+
+***So DO NOT USE this project, check [ckb-zkp](https://github.com/sec-bit/ckb-zkp) for the latest development.***
+
 ## Introduction
 
 Zero-knowledge proofs toolkit with pure Rust, empowering the community with the cutting-edge techniques of zero-knowledge proofs to develop all kinds of decentralized applications.
